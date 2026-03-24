@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | ahlok Travel</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo">ahlok<span>Travel</span></a>
+      <nav class="nav" id="nav">
+        <a href="index.html" class="nav__link">Home</a>
+        <a href="about.html" class="nav__link">About</a>
+        <a href="services.html" class="nav__link">Services</a>
+        <a href="pricing.html" class="nav__link">Pricing</a>
+        <a href="contact.html" class="nav__link active">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle Navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="section" style="background:var(--color-bg-alt); padding-top:calc(var(--header-height) + 6rem); padding-bottom:4rem;">
+    <div class="container text-center reveal">
+      <h1 class="title-xl text-gradient">Get In Touch</h1>
+      <p class="subtitle" style="margin:1.5rem auto 0;">We're here to help you plan your next adventure.</p>
+    </div>
+  </section>
+
+  <!-- Contact Module -->
+  <section class="section">
+    <div class="container" style="display:flex; flex-wrap:wrap; gap:4rem;">
+      <div style="flex:1; min-width:300px;" class="reveal">
+        <h2 class="title-lg" style="margin-bottom:1.5rem;">Let's Talk</h2>
+        <p style="margin-bottom:2rem; color:var(--color-text-muted);">Fill out the form below or reach us directly. Our concierges respond within 24 hours.</p>
+        
+        <form style="display:flex; flex-direction:column; gap:1.5rem;">
+          <input type="text" placeholder="Your Name" style="padding:1rem; border-radius:var(--radius-md); border:1px solid var(--color-border); font-family:inherit;">
+          <input type="email" placeholder="Your Email" style="padding:1rem; border-radius:var(--radius-md); border:1px solid var(--color-border); font-family:inherit;">
+          <textarea rows="5" placeholder="How can we help you?" style="padding:1rem; border-radius:var(--radius-md); border:1px solid var(--color-border); font-family:inherit; resize:vertical;"></textarea>
+          <button type="button" class="btn btn--primary" style="align-self:flex-start;">Send Message</button>
+        </form>
+      </div>
+      
+      <div style="flex:1; min-width:300px;" class="reveal" style="transition-delay: 100ms;">
+        <div style="background:var(--color-bg); padding:3rem; border-radius:var(--radius-lg); box-shadow:var(--shadow-md); border:1px solid var(--color-border);">
+          <h3 class="title-md" style="margin-bottom:1.5rem;">Contact Information</h3>
+          
+          <div style="margin-bottom:1.5rem;">
+            <p style="font-weight:600; margin-bottom:0.25rem;">📍 Global Headquarters</p>
+            <p style="color:var(--color-text-muted);">123 Exploration Avenue,<br>Suite 500<br>New York, NY 10012</p>
+          </div>
+          
+          <div style="margin-bottom:1.5rem;">
+            <p style="font-weight:600; margin-bottom:0.25rem;">📧 Email Us</p>
+            <p style="color:var(--color-text-muted);"><a href="mailto:hello@oktravel.example">hello@oktravel.example</a></p>
+          </div>
+          
+          <div>
+            <p style="font-weight:600; margin-bottom:0.25rem;">📞 Call Us</p>
+            <p style="color:var(--color-text-muted);">+1 (555) 123-4567<br><span style="font-size:0.85rem;">Mon - Fri, 9am - 6pm EST</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col" style="grid-column: span 1;">
+          <a href="index.html" class="logo" style="margin-bottom: 1rem;">ahlok<span>Travel</span></a>
+          <p style="color: var(--color-text-muted); font-size: 0.95rem;">Empowering your global adventures with luxury, security, and ease.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Careers</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul class="footer-links">
+            <li><a href="services.html">Destinations</a></li>
+            <li><a href="services.html">Flight Deals</a></li>
+            <li><a href="services.html">Hotels</a></li>
+            <li><a href="services.html">Cruises</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Support</h4>
+          <ul class="footer-links">
+            <li><a href="contact.html">Help Center</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2021 ahlokkk Travel. All rights reserved.</p>
+        <div style="display:flex; gap:1rem;">
+          <a href="#">FB</a>
+          <a href="#">TW</a>
+          <a href="#">IG</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
